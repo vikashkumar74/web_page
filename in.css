@@ -1,0 +1,221 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/*navigation*/ 
+
+.navbar{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    
+
+}
+.navbar img{
+  display: block;
+    margin: 10px;
+    margin-left: 5%;
+   float: left;
+}
+
+.navbar ul {
+   display: block;
+list-style: none;
+margin-right: 3%;
+    float: right;
+    
+}
+
+.navbar li {
+display: inline-block;
+padding: 6px;
+margin-right: 12px;
+}
+.navbar  li a{
+text-decoration: none;
+color: black;
+}
+.navbar li a:hover{
+cursor: pointer;
+color: orangered;
+}
+.navbar .navmenu{
+padding: 20px;
+
+}
+.navbar .navmenu .bar{
+display: none; 
+width: 18px;
+height: 3px;
+background-color: rgb(9, 9, 9);
+
+margin: 4px;
+
+}
+
+.navmenu{
+
+float: right;
+}
+
+/*section-bar*/
+.container{
+display: flex;
+flex-shrink: 3;
+justify-content: center;
+} 
+.container2{
+display: flex;
+justify-content: space-between;
+}
+
+.box-2 p{
+display: block;
+margin-top: 20px;
+
+}
+.box-2 button{
+background-color: orangered;
+padding: 10px;
+padding-right: 6px;
+}
+.box-2 button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+
+
+/*aside*/
+
+.aside{
+display: block;
+margin-left: 2%;
+width: 25%;
+
+color: aliceblue;
+background-color: black;
+}
+.aside h1 ,h2{
+
+margin-left: 8px;
+}
+.aside h3,.aside p{
+display: block;
+margin: 3px 8px;
+}
+.box1,.box2{
+
+border-bottom: 2px solid rgb(112, 110, 110);
+}
+.box1 p,.box2 p{
+margin-bottom: 12px;
+}
+     
+ /* responsive web */
+
+ 
+@media (min-width:782px)and (max-width:1140px){
+.count{
+display: block;
+width: 70%;
+}
+.count img{
+display: block;
+width: 100%;
+
+}
+
+}
+@media screen and (max-width:782px){
+#flexing{
+display: flex;
+flex-wrap: wrap;
+}
+#con2{
+display: block;
+
+}
+.box-1,.box-2{
+display: block;
+width: 100%;
+margin: auto;
+
+}
+.box-1 h1,.box-2 p{
+display: block;
+text-align: center;
+}
+.box-2 button{
+display: block;
+margin: auto;
+}
+.count img{
+display: block;
+width: 80%;
+margin: auto;
+}
+.aside{
+display: block;
+width: 80%;
+justify-content: center;
+margin: auto;
+}
+.about h4,.about p{
+font-size: 12px;
+}
+}
+@media (max-width:540px){
+.navbar ul{
+display: none;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.itm {
+    display: block;
+    margin-bottom:15px ;
+}
+.itm img{
+    width: 50%;
+}
+.navbar .navmenu .bar{
+display: block;
+}
+.aside{
+    margin-top: 15px;
+}
+
+
+/* footer section */
+
+}
+.container3{
+display: flex;
+
+margin-top: 25px ;
+justify-content: center;
+padding: 0px;
+}
+.itm{
+display: flex;
+}
+.itm img{
+display: block;
+width: 20%;
+
+margin-left: 3%;
+
+}
+.about{
+display: block;
+margin-left: 15px;
+}
+.about h4{
+display: block;
+margin-bottom: 0px;
+}
+.about h3 ,.about p{
+color: silver;
+}
